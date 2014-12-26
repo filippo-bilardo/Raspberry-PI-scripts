@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # --------------------------------------------------------------------------------
 # yt-install-hdmi-0.1.sh
 #
@@ -19,7 +18,6 @@ wget http://pypi.python.org/packages/source/w/whitey/whitey-0.1.tar.gz
 tar -zxvf whitey-0.1.tar.gz
 
 sed -i "s/'mplayer', '-quiet', '-fs', '--'/'omxplayer', '-ohdmi'/g" whitey-0.1/src/yt/__init__.py
-
 
 cd whitey-0.1/
 sudo python setup.py install
