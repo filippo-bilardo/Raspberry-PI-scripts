@@ -1,16 +1,16 @@
 #!/bin/bash
 #######################################################################
 #
-#	Filename: mount_hd.sh
-#	Date:     10/01/2015
-#	Version:  1.0
-#	Author:   Filippo Bilardo
+# Filename: mount_hd.sh
+# Date:     10/01/2015
+# Version:  1.0
+# Author:   Filippo Bilardo
 #
-#	Script per il montaggio dell'harddisk
+# Script per il montaggio dell'harddisk
 #
-#	Revision history:
-#	<data>      <version>   <change log>
-#	10/01/2015  1.0.0       Versione Iniziale
+# Revision history:
+# <data>      <version>   <change log>
+# 10/01/2015  1.0.0       Versione Iniziale
 #
 ########################################################################
 NAMEHD="MYHD"

@@ -1,16 +1,16 @@
 #!/bin/bash
 #######################################################################
 #
-#	Filename: launch_kodi.sh
-#	Date:     10/01/2015
-#	Version:  1.0
-#	Author:   Filippo Bilardo
+# Filename: launch_kodi.sh
+# Date:     10/01/2015
+# Version:  1.0
+# Author:   Filippo Bilardo
 #
-#	Se il processo non è già in esecuzione viene lanciato il programma
+# Se il processo non è già in esecuzione viene lanciato il programma
 #
-#	Revision history:
-#	<data>      <version>   <change log>
-#	10/01/2015  1.0.0       Versione Iniziale
+# Revision history:
+# <data>      <version>   <change log>
+# 10/01/2015  1.0.0       Versione Iniziale
 #
 ########################################################################
 PROGRAM_NAME="kodi"
