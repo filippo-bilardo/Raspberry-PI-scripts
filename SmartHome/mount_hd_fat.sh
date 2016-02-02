@@ -41,7 +41,7 @@ if [ $ismounted -eq 1 ]
 then
   echo "Disco gia' montato: /media/$NAMEHD"
 else
-  mount /dev/sda1  /media/$NAMEHD
+  mount -t vfat /dev/sda1  /media/$NAMEHD
   echo "Disco montato: /media/$NAMEHD"
 fi
 ls /media/$NAMEHD

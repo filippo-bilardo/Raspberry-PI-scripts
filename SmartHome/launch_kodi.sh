@@ -16,8 +16,8 @@
 PROGRAM_NAME="kodi"
 
 isRunning=$(ps -aux | grep -c $PROGRAM_NAME)
-echo
-if [ $isRunning -eq 1 ]
+echo $isRunning
+if [ $isRunning -eq 4 ]
 then
   echo "Esecuzione di $PROGRAM_NAME..."
   $PROGRAM_NAME
